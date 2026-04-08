@@ -9,10 +9,8 @@ En construction d'un portfolio SOC axé sur l'analyse de trafic réseau.
 `Keycloak` `Proxmox` `Wireshark` `tcpdump` `Prometheus` `Grafana` `Docker` `Arch Linux`
 
 ### 📊 TryHackMe
-[
 
 ![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/SkyCruzer.png)
-
 ](https://tryhackme.com/p/SkyCruzer)
 
 > Top 4% · 109 rooms complétées · 16 badges
