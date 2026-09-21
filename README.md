@@ -3,14 +3,14 @@
 **SOC Analyst (Junior) | Blue Team | Network Security**
 
 Actuellement en stage chez Hedal Consulting — déploiement IAM (Keycloak + Stalwart) sur Proxmox.  
-En construction d'un portfolio SOC axé sur l'analyse de trafic réseau.
+En construction d'un portfolio SOC axé sur l'analyse de trafic réseau, le hardening et l'observabilité.
 
 ---
 
 ## 💼 Hedal Consulting — Production
 
 | Projet | Stack | Description |
-|--------|-------|-------------|
+|--------|-------|--------|
 | [keycloak-stalwart-stack](https://github.com/Souheib-h/keycloak-stalwart-stack) | Keycloak · Stalwart · PostgreSQL · Proxmox | IAM + mail server, 4 serveurs prod |
 | [stalwart-monitoring-stack](https://github.com/Souheib-h/stalwart-monitoring-stack) | Prometheus · Grafana · Docker | Monitoring stack production-ready |
 
@@ -21,12 +21,15 @@ En construction d'un portfolio SOC axé sur l'analyse de trafic réseau.
 | Projet | Stack | Statut |
 |--------|-------|--------|
 | [Packet-Analysis-Lab](https://github.com/Souheib-h/Packet-Analysis-Lab) | PnetLab · Wireshark · tcpdump | 🔄 En cours (Phase 3/6) |
+| [Bastion-lab](https://github.com/Souheib-h/Bastion-lab) | SSH · fail2ban · hardening | 🔄 En cours |
+| [K3s-lab](https://github.com/Souheib-h/K3s-lab) | K3s · Kubernetes · réseau | 🔄 En cours (7 phases) |
+| [K3s-lab-monitoring](https://github.com/Souheib-h/K3s-lab-monitoring) | Prometheus · Grafana · Ansible | 🔄 En cours (8 phases) |
 
 ---
 
 ## 🛠️ Stack
 
-`Keycloak` `Proxmox` `Wireshark` `tcpdump` `Prometheus` `Grafana` `Docker` `Arch Linux`
+`Keycloak` `Proxmox` `Wireshark` `tcpdump` `Prometheus` `Grafana` `Docker` `Kubernetes (K3s)` `Ansible` `fail2ban` `Arch Linux`
 
 ---
 
