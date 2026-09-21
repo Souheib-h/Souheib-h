@@ -1,9 +1,9 @@
 # 👋 Souheib Houssein
 
-**Infrastructure & Security (Junior) | Blue Team | SOC | Network Security**
+**Infrastructure Security Engineer (Junior) | Blue Team | Network Security**
 
 Chez Hedal Consulting (Djibouti) : IAM Keycloak + Stalwart sur Proxmox, migration mail vers Infomaniak kSuite, cloud souverain.  
-En parallèle, je construis un portfolio axé sur l'analyse de trafic réseau, le hardening et l'observabilité (Wazuh, Zabbix, Prometheus, Grafana).
+En parallèle, je construis des labs d'infrastructure sécurisée : cluster K3s en haute disponibilité, bastion, et une stack NOC/SOC complète et automatisée.
 
 ---
 
@@ -18,30 +18,36 @@ Aussi en production : migration Microsoft 365 vers Infomaniak kSuite (DNS, DKIM/
 
 ---
 
-## 🔬 Portfolio SOC et infrastructure : Personnel
+## 🔬 Labs personnels
 
 | Projet | Stack | Statut |
 |--------|-------|--------|
+| [K3s-lab](https://github.com/Souheib-h/K3s-lab) | K3s HA (3 servers + 3 agents) · PostgreSQL · HAProxy · Alpine/Ubuntu | ✅ Terminé |
+| [K3s-lab-monitoring](https://github.com/Souheib-h/K3s-lab-monitoring) | Zabbix · Wazuh · Prometheus · Grafana · Loki · Alloy · OPNsense · Ansible | ✅ Opérationnel (13 VMs) |
+| [Bastion-lab](https://github.com/Souheib-h/Bastion-lab) | SSH · ProxyJump · fail2ban · OPNsense · Wazuh | ✅ Terminé |
 | [Packet-Analysis-Lab](https://github.com/Souheib-h/Packet-Analysis-Lab) | PnetLab · Wireshark · tcpdump | 🔄 En cours (Phase 3/6) |
-| [Bastion-lab](https://github.com/Souheib-h/Bastion-lab) | SSH · fail2ban · hardening | 🔄 En cours |
-| [K3s-lab](https://github.com/Souheib-h/K3s-lab) | K3s · Kubernetes · réseau | 🔄 En cours (7 phases) |
-| [K3s-lab-monitoring](https://github.com/Souheib-h/K3s-lab-monitoring) | Prometheus · Grafana · Zabbix · Wazuh · OPNsense · Ansible | 🔄 Quasi terminé, reprise en octobre (8 phases) |
+| Cluster K8s HA | kubeadm · Calico · k9s · Kubernetes 1.35 | ✅ Opérationnel (terrain de préparation CKA) |
+| Proxmox-cluster-lab | Proxmox VE · PBS · PDM · ZFS | 🗓️ Planifié après le CKA |
 
-Dashboard Prometheus self-monitoring publié sur [Grafana.com](https://grafana.com/grafana/dashboards/) (ID 25537).
+**Points forts de K3s-lab-monitoring** :
+- Déploiement automatisé des agents Zabbix, Wazuh et Loki/Alloy sur les 13 VMs via Ansible
+- Alerting enrichi VirusTotal avec envoi d'emails
+- Détection de vulnérabilités Wazuh opérationnelle (diagnostic d'un bug upstream documenté)
+- Dashboard Prometheus publié sur le marketplace officiel : [Grafana.com ID 25537](https://grafana.com/grafana/dashboards/25537) (40+ téléchargements)
 
 ---
 
 ## 🎯 En cours
 
-- Préparation **CKA** (examen en octobre 2026)
-- Parcours offensif : eJPT / PNPT puis OSCP
-- Préparation d'un cyber drill en janvier
+- **CKA** : examen début octobre 2026
+- **Detection engineering** : règles Sigma, mapping MITRE ATT&CK, Falco et audit logs Kubernetes (après le CKA)
+- **Certifications visées** : RHCSA, CCNA, CySA+ puis BTL1 (CCST Cybersecurity obtenu en 2025)
 
 ---
 
 ## 🛠️ Stack
 
-`Keycloak` `Proxmox` `KVM/libvirt` `Wireshark` `tcpdump` `Wazuh` `Zabbix` `Prometheus` `Grafana` `Docker` `Kubernetes (K3s)` `Ansible` `OPNsense` `Containerlab` `PNetLab` `fail2ban` `Arch Linux`
+`Keycloak` `Proxmox` `KVM/libvirt` `Kubernetes (K3s, kubeadm)` `Ansible` `Wazuh` `Zabbix` `Prometheus` `Grafana` `Loki` `OPNsense` `HAProxy` `PostgreSQL` `Docker` `Wireshark` `tcpdump` `fail2ban` `Containerlab` `PNetLab` `Arch Linux`
 
 ---
 
