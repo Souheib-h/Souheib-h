@@ -1,0 +1,23 @@
+name: links
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1"   # weekly, catches repos renamed or made private
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403/429: sites that block CI runners (TryHackMe, Grafana.com)
+          args: --no-progress --max-retries 3 --accept '200..=299,403,429' README.md
+          fail: true
