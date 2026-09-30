@@ -35,7 +35,7 @@ Aussi en production : migration Microsoft 365 vers Infomaniak kSuite (DNS, DKIM/
 - Déploiement automatisé des agents Zabbix, Wazuh et Loki/Alloy sur les 13 VMs via Ansible
 - Alerting enrichi VirusTotal avec envoi d'emails
 - Détection de vulnérabilités Wazuh opérationnelle (diagnostic d'un bug upstream documenté)
-- Dashboard Prometheus publié sur le marketplace officiel : [Grafana.com ID 25537](https://grafana.com/grafana/dashboards/25537) (40+ téléchargements)
+- Dashboard Prometheus publié sur le marketplace officiel : [Grafana.com ID 25537](https://grafana.com/grafana/dashboards/25537) (100+ téléchargements)
 
 ---
 
