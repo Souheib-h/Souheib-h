@@ -3,7 +3,7 @@
 **Infrastructure Security Engineer (Junior) | Blue Team | Network Security**
 
 Chez Hedal Consulting (Djibouti) : IAM Keycloak + Stalwart sur Proxmox, migration mail vers Infomaniak kSuite, cloud souverain.  
-En parallèle, je construis des labs d'infrastructure sécurisée : cluster K3s en haute disponibilité, bastion, et une stack NOC/SOC complète et automatisée.
+En parallèle, je construis des labs d'infrastructure sécurisée : clusters Kubernetes en haute disponibilité (K3s, puis kubeadm), bastion, et une stack NOC/SOC complète et automatisée.
 
 ---
 
@@ -27,6 +27,8 @@ Aussi en production : migration Microsoft 365 vers Infomaniak kSuite (DNS, DKIM/
 | [Bastion-lab](https://github.com/Souheib-h/Bastion-lab) | SSH · ProxyJump · fail2ban · OPNsense · Wazuh | ✅ Terminé |
 | [Packet-Analysis-Lab](https://github.com/Souheib-h/Packet-Analysis-Lab) | PnetLab · Wireshark · tcpdump | ⏸️ En pause (phases 1 à 3 terminées, phase 4/6 à reprendre) |
 | Cluster K8s HA | kubeadm · Calico · k9s · Kubernetes 1.35 | ✅ Opérationnel (terrain de préparation CKA) |
+| Homelab-mon | Zabbix · Wazuh · Prometheus · Alertmanager · Grafana · Loki · Falco · Ansible | 🗓️ Planifié après le CKA (suite de K3s-lab-monitoring : tout le homelab, HA, detection engineering) |
+| k8s-ha | kubeadm · etcd empilé · HAProxy + keepalived · Calico | 🗓️ Planifié après le CKA (cluster neuf, durci dès le départ) |
 | Proxmox-cluster-lab | Proxmox VE · PBS · PDM · ZFS | 🗓️ Planifié après le CKA |
 
 **Points forts de K3s-lab-monitoring** :
@@ -40,7 +42,7 @@ Aussi en production : migration Microsoft 365 vers Infomaniak kSuite (DNS, DKIM/
 ## 🎯 En cours
 
 - **CKA** : examen début octobre 2026
-- **Detection engineering** : règles Sigma, mapping MITRE ATT&CK, Falco et audit logs Kubernetes (après le CKA)
+- **Detection engineering** : règles Sigma, mapping MITRE ATT&CK, Falco et audit logs Kubernetes (après le CKA, dans Homelab-mon)
 - **Certifications visées** : RHCSA, CCNA, CySA+ puis BTL1 (CCST Cybersecurity obtenu en 2025)
 
 ---
