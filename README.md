@@ -25,7 +25,7 @@ Aussi en production : migration Microsoft 365 vers Infomaniak kSuite (DNS, DKIM/
 | [K3s-lab](https://github.com/Souheib-h/K3s-lab) | K3s HA (3 servers + 3 agents) · PostgreSQL · HAProxy · Alpine/Ubuntu | 📦 Archivé (lab d'apprentissage, remplacé par le cluster kubeadm) |
 | [K3s-lab-monitoring](https://github.com/Souheib-h/K3s-lab-monitoring) | Zabbix · Wazuh · Prometheus · Grafana · Loki · Alloy · OPNsense · Ansible | ✅ Opérationnel (13 VMs) |
 | [Bastion-lab](https://github.com/Souheib-h/Bastion-lab) | SSH · ProxyJump · fail2ban · OPNsense · Wazuh | ✅ Terminé |
-| [Packet-Analysis-Lab](https://github.com/Souheib-h/Packet-Analysis-Lab) | PnetLab · Wireshark · tcpdump | 🔄 En cours (Phase 4/6, phases 1 à 3 terminées) |
+| [Packet-Analysis-Lab](https://github.com/Souheib-h/Packet-Analysis-Lab) | PnetLab · Wireshark · tcpdump | ⏸️ En pause (phases 1 à 3 terminées, phase 4/6 à reprendre) |
 | Cluster K8s HA | kubeadm · Calico · k9s · Kubernetes 1.35 | ✅ Opérationnel (terrain de préparation CKA) |
 | Proxmox-cluster-lab | Proxmox VE · PBS · PDM · ZFS | 🗓️ Planifié après le CKA |
 
